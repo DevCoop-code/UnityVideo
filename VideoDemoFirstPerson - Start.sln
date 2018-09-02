@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDemoFirstPerson - Start", "Assembly-CSharp.csproj", "{0BD778F9-25D3-2C52-0939-36D9A4F211FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoDemoFirstPerson - Start", "Assembly-CSharp-Editor.csproj", "{E6F3C349-01EC-4810-490F-F9EAE6D944DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BD778F9-25D3-2C52-0939-36D9A4F211FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BD778F9-25D3-2C52-0939-36D9A4F211FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BD778F9-25D3-2C52-0939-36D9A4F211FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BD778F9-25D3-2C52-0939-36D9A4F211FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6F3C349-01EC-4810-490F-F9EAE6D944DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6F3C349-01EC-4810-490F-F9EAE6D944DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6F3C349-01EC-4810-490F-F9EAE6D944DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6F3C349-01EC-4810-490F-F9EAE6D944DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

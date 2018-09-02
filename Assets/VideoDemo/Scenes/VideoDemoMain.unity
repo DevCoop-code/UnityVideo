@@ -1581,8 +1581,8 @@ GameObject:
   - component: {fileID: 1505249018}
   - component: {fileID: 1505249021}
   - component: {fileID: 1505249020}
-  - component: {fileID: 1505249019}
   - component: {fileID: 1505249022}
+  - component: {fileID: 1505249019}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -1612,7 +1612,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1505249017}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45546694087a8d943915e4aff3c577a1, type: 3}
+  m_Script: {fileID: 11500000, guid: ccada7ffc1ca34086965a62c6b30b84d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   gunDamage: 1
@@ -1962,6 +1962,7 @@ GameObject:
   - component: {fileID: 1745466134}
   - component: {fileID: 1745466133}
   - component: {fileID: 1745466132}
+  - component: {fileID: 1745466135}
   m_Layer: 0
   m_Name: PlayButton
   m_TagString: Untagged
@@ -2035,6 +2036,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1745466130}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1745466135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1745466130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305dca657db7744099e93cd2dbf68769, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  worldSpaceVideo: {fileID: 1947376196}
 --- !u!1 &1843294122
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,6 +2216,7 @@ GameObject:
   - component: {fileID: 1947376193}
   - component: {fileID: 1947376194}
   - component: {fileID: 1947376195}
+  - component: {fileID: 1947376196}
   m_Layer: 0
   m_Name: VideoPlayer
   m_TagString: Untagged
@@ -2252,7 +2266,7 @@ VideoPlayer:
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
   m_ControlledAudioTrackCount: 1
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_SkipOnDrop: 1
   m_Looping: 1
   m_WaitForFirstFrame: 1
@@ -2337,6 +2351,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &1947376196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1947376192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b08b167799de74da1bbfd02f62f7d941, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playButtonMaterial: {fileID: 2100000, guid: 022e9f60f241e7240a0f3bd765a3da97, type: 2}
+  pauseButtonMaterial: {fileID: 2100000, guid: e760038a731745a46b37024d90ff724e, type: 2}
+  playButtonRenderer: {fileID: 1745466132}
 --- !u!1 &2054092562
 GameObject:
   m_ObjectHideFlags: 0
