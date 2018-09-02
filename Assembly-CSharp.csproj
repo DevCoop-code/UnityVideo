@@ -135,6 +135,7 @@
      <Compile Include="Assets\Let&apos;s Try Shooter Content\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Let&apos;s Try Shooter Content\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Let&apos;s Try Shooter Content\Standard Assets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\VideoDemo\Scripts\NextButtonControl.cs" />
      <Compile Include="Assets\VideoDemo\Scripts\PlayButtonControl.cs" />
      <Compile Include="Assets\VideoDemo\Scripts\RaycastShootComplete1.cs" />
      <Compile Include="Assets\VideoDemo\Scripts\ShootableUI.cs" />
